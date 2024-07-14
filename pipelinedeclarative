@@ -4,6 +4,7 @@ pipeline
     stages{
         stage('SCM-Checkout'){
             steps{
+                echo "Running Script for SCM"
                 echo " I am in checkout state"
                 }
         }
