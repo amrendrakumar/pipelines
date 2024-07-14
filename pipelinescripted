@@ -8,4 +8,7 @@ node {
     stage('Deploy') { 
         echo "In Deploy stage" 
     }
+stage('Welcome') { 
+        echo "Weldone Amrendra you created Scripted Pipeline from SCM" 
+    }
 }
